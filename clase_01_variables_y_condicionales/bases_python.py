@@ -35,7 +35,7 @@ suma = int(texto_uno) + car
 def calcular_nota():
     nombre = input('Ingrese el nombre del alumno: ')
     num1 = float(input('Ingrese primer nota: '))
-    num2 = int(input('Ingrese segunda nota: '))
+    num2 = int(input('Ingrese segunda nota: ')) #CAST
 
     prom = (num1 + num2) / 2
     print("El promedio de " + nombre + " es: " + str(prom))
@@ -49,4 +49,6 @@ def calcular_nota():
     else:
         print('El alumno esta libre')
 
-calcular_nota()
+#calcular_nota()
+
+
