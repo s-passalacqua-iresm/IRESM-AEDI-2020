@@ -37,14 +37,14 @@ def dos_num_enteros(a, b):
     elif a == b:
 
         z=str("1")
-        return print(f"{z}")
+        return z
     else:
         CuadradoPrimero = b ^ 2
         CuadradoSegundo = a ^ 2
 
     Division = CuadradoPrimero / CuadradoSegundo
 
-    return print(f"El resultado es {Division}")
+    return Division
 
 
 
@@ -56,7 +56,7 @@ def celcius_to_fal():
     var1 = float(input("Ingrese la tamperatura que desea convertir a Celcius: "))
     Celcius = (5 / 9) * (var1 - 32)
 
-    return print(f"{var1} grados Fahrenheit equivalen a {Celcius} grados Celcius")
+    return Celcius
 
 
 

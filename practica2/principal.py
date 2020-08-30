@@ -20,16 +20,21 @@ elif opcion == 2:
     funciones.suma_prim_igual_ter(num1, num2, num3)
 
 elif opcion == 3:
+
     a = int(input("Ingrese el primer numero entero: "))
     b = int(input("Ingrese el segundo numero entero: "))
 
-    funciones.dos_num_enteros(a, b)
+    print(f"El resultado es {funciones.dos_num_enteros(a, b)}")
 
 elif opcion == 4:
 
-    funciones.celcius_to_fal()
+    print(f"Los grados que ingreso en Fahrenheit equivalen a {funciones.celcius_to_fal()} grados Celcius")
 
-else print("Numero incorrecto")
+else:
+    print("Numero incorrecto")
+
+
+
 
 
 
