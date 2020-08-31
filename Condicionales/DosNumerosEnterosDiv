@@ -1,3 +1,5 @@
+# Este archivo no tiene la extension .py
+
 num1=int(input("Ingrese el primer numero entero: "))
 num2=int(input("Ingrese el segundo numero entero: "))
 if num1 > num2:
@@ -10,6 +12,6 @@ else:
     CuadradoSegundo = num1 ^ 2
 
 
-Division=CuadradoPrimero/CuadradoSegundo
-
+Division=CuadradoPrimero/CuadradoSegundo. # las variables CuadradoPrimero y CuadradoSegundo no fueron inicializadas si se cumple que num1==num2, las variables no tendrian valor
+                                          # ademas si la condicion num1==num2 mostraría los dos mensajes "Los numeros son iguales" y "El Resultado de la division es 1"
 print(f"El Resultado de la division es {Division}")
